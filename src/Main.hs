@@ -26,6 +26,8 @@
 ------------------------------------------------------------------------------}
 {-# LANGUAGE RecursiveDo #-}
 
+module Main where
+
 import Prelude hiding (lookup)
 import Control.Monad  (void, liftM)
 import Data.List      (isPrefixOf)
